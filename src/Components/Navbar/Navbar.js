@@ -7,6 +7,7 @@ const Navbar = () => {
         <img src='/logo192.png' className="App-logo" alt="logo" />
         <ul>
             <li><button className='btn'>Welcome</button></li>
+            <li>Explore</li>
             <li>Why CodersCompass</li>
             <li>Contact-Us</li>
             <li>Sign Up</li>

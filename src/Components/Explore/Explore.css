@@ -1,0 +1,33 @@
+.explore {
+    width: 100%;
+    min-height: 100vh;
+    color: #000000;
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center;
+  }
+  
+  .explore-content {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .explore-image {
+    flex: 0 0 50%; /* Take 50% width of the parent */
+  }
+  
+  .explore-image img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .explore-text {
+    flex: 0 0 50%; /* Take 50% width of the parent */
+    padding: 0 20px; /* Add padding for spacing */
+  }
+  
+  .explore-text h1 {
+    color: blue;
+  }
+  

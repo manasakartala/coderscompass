@@ -1,0 +1,25 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)),url('/public/hero.jpg');
+    background-size: cover;
+    background-position: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+}
+.btn{
+    border-radius: 20px; /* Adjust the value to change the roundness */
+    padding: 10px 20px; color: #000; /* Text color */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px;
+}
+p{
+    text-size-adjust: 10px;
+}
